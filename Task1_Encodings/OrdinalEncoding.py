@@ -1,4 +1,4 @@
-git cimport pandas as pd
+import pandas as pd
 
 data = pd.read_csv("ordinalEnc_data.csv")
 print("Original Data\n" ,data)
