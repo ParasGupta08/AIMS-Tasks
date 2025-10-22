@@ -1,0 +1,11 @@
+Name,Age,Gender,Department,Salary,Experience,Score
+Amit,25,Male,HR,40000,2,85
+Priya,NaN,Female,Finance,52000,4,90
+Rohit,29,Male,Marketing,48000,NaN,78
+Sneha,25,Female,Marketing,NaN,5,88
+Karan,26,Male,Finance,45000,2,NaN
+Neha,25,Female,HR,40000,NaN,82
+Ravi,35,Male,Marketing,60000,2,95
+Simran,30,Female,Finance,NaN,3,89
+Arjun,32,Male,HR,50000,NaN,NaN
+Meena,28,Female,Finance,40000,4,87
