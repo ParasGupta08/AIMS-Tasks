@@ -25,10 +25,17 @@ sizeMap = {
 
 def OrdinalEncoder(Column, Map) :
     newColumn = f"{Column}_Encoded"
-    for value in data[Column]:
-        data[newColumn] = data[Column].map(Map)
+    data[newColumn] = 0
     
-Education_Level = "Education_Level"
+    for i in range(len(data)):
+        value = data.loc[i,Column]
+        if value in Map:
+            data.loc[i, newColumn] = Map[value]
+        else :
+            data.loc[i, newColumn] = None     
+
+    
+Education_Level = "Education_Level" 
 Experience_Level = "Experience_Level"
 Company_Size = "Company_Size"
 OrdinalEncoder(Education_Level, educationMap)
